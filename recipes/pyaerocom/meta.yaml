@@ -1,0 +1,39 @@
+package:
+  name: pyaerocom
+  version: "0.4.2"
+
+source:
+  git_rev: v0.4.2
+  git_url: https://github.com/annefou/pyaerocom
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - iris >=2.1.0
+    - xarray >=0.10.8
+    - pandas >=0.22.0
+    - cartopy >=0.16.0
+    - numpy >=1.14
+    - matplotlib >=2.1.2
+    - seaborn >=0.8.1
+    - geopy >=1.17.0
+  run:
+    - python
+    - iris >=2.1.0
+    - xarray >=0.10.8
+    - pandas >=0.22.0
+    - cartopy >=0.16.0
+    - numpy >=1.14
+    - matplotlib >=2.1.2
+    - seaborn >=0.8.1
+    - geopy >=1.17.0
+
+test:
+  imports:
+    - pyaerocom
+
+about:
+  home: https://github.com/metno/pyaerocom
+  license: GPLv3
+  license_file: LICENSE
