@@ -1,10 +1,10 @@
 package:
   name: pyaerocom
-  version: "0.4.2"
+  version: "0.6.3"
 
 source:
-  git_rev: v0.4.2
-  git_url: https://github.com/annefou/pyaerocom
+  git_rev: v0.6.3
+  git_url: https://github.com/metno/pyaerocom
 
 requirements:
   build:
@@ -25,7 +25,7 @@ requirements:
     - pandas >=0.22.0
     - cartopy >=0.16.0
     - numpy >=1.14
-    - matplotlib >=2.1.2
+    - matplotlib =2.2.*
     - seaborn >=0.8.1
     - geopy >=1.17.0
 
